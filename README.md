@@ -79,3 +79,5 @@ Special appreciation to the authors of the AraNews dataset for providing a valua
 - **Book Title:** Proceedings of the Fourth Arabic Natural Language Processing Workshop
 - **Address:** Barcelona, Spain
 
+# Download the dataset 
+  https://github.com/UBC-NLP/wanlp2020_arabic_fake_news_detection?tab=readme-ov-file#donwload-aranews
