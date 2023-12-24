@@ -1,29 +1,39 @@
 # Overview
 AraNews is a comprehensive Arabic news dataset created to investigate misinformation and disinformation in Arabic news articles. The dataset includes diverse news sources from 15 Arab countries, the United States, and the United Kingdom, offering a broad perspective on the linguistic landscape.
 
-## Dataset Statistics
-Number of Newspapers: 50
-Countries Covered: 15 Arab countries, USA, UK
-Total News Articles: 5,187,957
+### Project Description
+
+This project centers on Arabic fake news detection, leveraging cutting-edge techniques such as Arabert pre-trained models from Hugging Face. The implementation also features the deployment of the model using Flask, complete with a user-friendly interface.
+
+### Dataset Statistics
+
+- Number of Newspapers: 50
+- Countries Covered: 15 Arab countries, USA, UK
+- Total News Articles: 5,187,957
 Data Collection
 The dataset was meticulously compiled by manually selecting 50 newspapers and subsequently scraping news articles from these sources.
 
 
-## Code Structure
-preprocessing.py: Houses the latest Arabic preprocessing techniques.
-model_training.py: Code for training the fake news detection model.
-deployment_flask.py: Flask application for model deployment.
-Model.zip : Saved model 
-Results
-## The trained model achieved notable results:
-Training Loss (Epoch 2): 0.203500
-Validation Loss (Epoch 2): 0.228960
-Macro F1 (Epoch 2): 0.908546
-Accuracy (Epoch 2): 0.908658
-Model Save
-The final model is saved in the output_dir directory, and the tokenizer used for preprocessing is also preserved for future use.
+### Code Structure
 
-# Acknowledgments
+- `preprocessing.ipynb`: Houses the latest Arabic preprocessing techniques.
+- `model_training.ipynb`: Code for training the fake news detection model.
+- `deployment_flask.ipynb`: Flask application for model deployment.
+## Results
+
+The trained model achieved notable results:
+
+- Training Loss (Epoch 2): 0.203500
+- Validation Loss (Epoch 2): 0.228960
+- Macro F1 (Epoch 2): 0.908546
+- Accuracy (Epoch 2): 0.908658
+### Model Save
+
+The final model is saved in the `output_dir` directory, and the tokenizer used for preprocessing is also preserved for future use.
+
+
+## Acknowledgments
+
 Special appreciation to the authors of the AraNews dataset for providing a valuable resource for research in Arabic misinformation detection.
 
 Arabic Fake News Detection
