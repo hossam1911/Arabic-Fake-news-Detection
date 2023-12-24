@@ -40,3 +40,18 @@ Launch the Flask application locally to experience the project firsthand. Altern
 Contribution Guidelines:
 Contributions are enthusiastically welcomed! If you have ideas for enhancements, novel features, or improvements, please refer to the contribution guidelines in the repository. Your contributions can play a pivotal role in advancing the capabilities of this project.
 
+# Arabic Fake News Detection
+
+...
+
+## Acknowledgments
+
+Special appreciation to the authors of the AraNews dataset for providing a valuable resource for research in Arabic misinformation detection.
+
+**Dataset Citation:**
+- **Title:** Machine Generation and Detection of Arabic Manipulated and Fake News
+- **Authors:** El Moatez Billah Nagoudi, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Tariq Alhindi, Hasan Cavusoglu
+- **Year:** 2020
+- **Book Title:** Proceedings of the Fourth Arabic Natural Language Processing Workshop
+- **Address:** Barcelona, Spain
+
