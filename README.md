@@ -18,7 +18,7 @@ The dataset was meticulously compiled by manually selecting 50 newspapers and su
 
 - `preprocessing.ipynb`: Houses the latest Arabic preprocessing techniques.
 - `model_training.ipynb`: Code for training the fake news detection model.
-- `deployment_flask.ipynb`: Flask application for model deployment.
+- `Fakely website`: Flask application for model deployment.
 ## Results
 
 The trained model achieved notable results:
@@ -32,7 +32,7 @@ The trained model achieved notable results:
 The final model is saved in the `output_dir` directory, and the tokenizer used for preprocessing is also preserved for future use.
 
 ### Web Page
-![Result](Fakely website/Screen 1.png)
+![Result](Fakely website/Screen1.png)
 
 
 
