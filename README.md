@@ -32,7 +32,7 @@ The trained model achieved notable results:
 The final model is saved in the `output_dir` directory, and the tokenizer used for preprocessing is also preserved for future use.
 
 ### Web Page
-![Input](Fakely%20website/Screen2.png)
+![Input](Fakely%20website/screen2.png)
 ![Result](Fakely%20website/Screen1.png)
 
 
