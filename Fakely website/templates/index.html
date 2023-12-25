@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake news detiction</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <!-- <span class="style"></span> -->
+    <div class="main_container">
+        <div class="header">
+			<span class="logo">
+				<h1>Fakely</h1>
+			</span>
+			<ul>
+				<li>Home</li>
+				<li>About Us</li>
+				<li>Contact Us</li>
+
+				
+			</ul>
+		</div>
+        <!-- <h1 class="heding">Fake News Detection</h1> -->
+        <div class="span"></div>
+        <a href="#" class="btn" id="btn" onclick="shrirk()">Check News</a>
+
+        <div class="div_btn" id="div_btn">
+            <a href="home.html" class="btnen" id="btnen" >Check News in English</a>
+            <a href="homear.html" class="btnar" id="btnar" >Check News in Arabic</a>
+        </div>
+
+    </div>
+
+
+    <script>
+        function shrirk() {
+            var btn = document.getElementById("btn");
+            btn.style.display = "none";
+
+            document.getElementById("div_btn").style.display = "flex";
+            
+            
+
+
+        }
+
+    </script>
+</body>
+</html>

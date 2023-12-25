@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>English Result</title>
+		<link rel="stylesheet" type="text/css" href="../static/styles.css">
+
+		<style>
+			#enhead{
+				font-size: 42px;
+				color: #fff;
+				width: 100%;
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				font-weight: 900;
+				/* padding: 50px 0 50px 0  ; */
+				border-bottom: 2px solid #0b7dda;
+			}
+			
+			#enresult{
+				display: flex;
+				justify-content: center ;
+				vertical-align: middle;
+				cursor: not-allowed;
+			}
+			#enresult .fake{
+				color:#fff; 
+				background-color: #F00;
+				padding: 20px 40px;
+				font-size: 50px;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				border-radius: 10px;
+				
+			}
+			#enresult .real{
+				color:#fff; 
+				background-color: rgb(21, 133, 26);
+				padding: 20px 40px;
+				font-size: 50px;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				border-radius: 10px;
+				
+			}
+			.en-btn-r{
+				background-color: #0b7dda;
+				color: #fff;
+				font-size: 24px;
+				font-weight: 900;
+				outline: none;
+				padding: 10px 40px;
+				position: absolute;
+				bottom: 50px;
+				right: 50px;
+				border-radius: 10px;
+				transition: all 0.8s;
+			}
+			.en-btn-r:hover{
+				background-color: #fff;
+				color: #0b7dda;
+				cursor: pointer;	
+			}
+		</style>
+	</head>
+<body>
+		<div class="heading" id="enhead">
+			English Detector
+		</div>
+
+		<div class="results" id="enresult">
+
+		{% if prediction == 1%}
+		<h2 class="fake">
+			It Looks Fake
+		</h2>
+		{% elif prediction == 0%}
+		<h2 class="real">It Looks Real</h2>
+		{% endif %}
+
+		</div>
+
+		<a href="home.html"><button class="en-btn-r">Check Another News</button></a>
+
+</body>
+</html>

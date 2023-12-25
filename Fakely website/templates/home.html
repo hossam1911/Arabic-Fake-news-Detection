@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+	<div class="container">
+
+		
+
+		<div class="ml-container">
+
+			<form action="{{ url_for('predict')}}" method="POST">
+				<p>Enter Your News Here</p>
+				
+				<!-- <input type="text" name="comment"/> -->
+				<textarea name="message" rows="6" cols="80"></textarea>
+				<br/>
+	
+			<input type="submit" class="btn-info" value="predict">
+			
+			</form>
+			
+		</div>
+	</div>
+
+
+</body>
+</html>
